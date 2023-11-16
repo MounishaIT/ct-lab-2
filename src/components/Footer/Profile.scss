@@ -1,0 +1,19 @@
+.patient-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+  max-width: 600px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.user-image {
+  margin-bottom: 20px;
+}
+
+.user-image img {
+  max-width: 100%;
+  max-height: 100%;
+}

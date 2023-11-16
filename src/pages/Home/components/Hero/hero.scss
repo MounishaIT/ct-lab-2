@@ -1,0 +1,36 @@
+@import "../../../../vendors/mixins";
+@import "../../../../vendors/variables";
+
+.hero {
+    .hero-content {
+        height: 524px;
+        background-image: url('https://img.freepik.com/free-photo/assortment-pieces-cake_114579-30731.jpg?w=740&t=st=1698151355~exp=1698151955~hmac=6a1cb9bd581fc5bc3624f2263fe1d93b560d7317c4cd24658945e8a59769c7b1'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+        padding: 80px 100px;
+
+        @media(max-width: 922px) {
+            height: 430px;
+        }
+
+        @media(max-width: 767px) {
+            padding: 70px 0 70px 40px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: black;
+
+            @media(max-width: 922px) {
+                font-size: 40px;
+            }
+
+            @media(max-width: 544px) {
+                font-size: 32px;
+            }
+        }
+    }
+}

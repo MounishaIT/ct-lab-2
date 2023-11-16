@@ -1,0 +1,41 @@
+@import "../../../../vendors/mixins";
+@import "../../../../vendors/variables";
+
+.home-connect {
+    background-image: url(https://img.freepik.com/free-photo/frame-food-ingredients-baking-gently-pink-pastel-background-cooking-flat-lay-with-copy-space-top-view-baking-concept-flat-lay_127032-2200.jpg?w=740&t=st=1698678562~exp=1698679162~hmac=5fd95c5572cdd9f9d4d9bc69ba444bf3ff81dff3ade32881f58ad1bfd6a011b8);
+    padding: 80px 30px;
+    @include flexCenter;
+    flex-direction: column;
+
+    h3 {
+        font-size: 21px;
+        color: white;
+        font-weight: 400;
+        margin-bottom: 1em;
+        line-height: 1.5;
+    }
+
+    .connections {
+        @include flexCenter;
+        gap: 8px;
+        flex-wrap: wrap;
+
+        .connect-button {
+            padding: 13px;
+            background-color: #78909C;
+            color: white;
+            border: 0;
+            outline: 0;
+            flex-wrap: wrap;
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            &:hover {
+                background-color: #607d8b;
+            }
+        }
+    }
+}
