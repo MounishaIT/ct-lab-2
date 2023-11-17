@@ -22,7 +22,7 @@ function LoginPage() {
         // Simulate a successful login
         localStorage.setItem('token', 'your_generated_token');
         alert('Login Successful');
-        navigate('/Profile');
+        navigate('/');
       } else {
         // Simulate an unsuccessful login
         alert('Invalid username or password');
